@@ -1,10 +1,36 @@
 {
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavsio4/vue-rss-widget.git"
+  },
+  "keywords": [
+    "vuejs",
+    "quotes",
+    "favqs"
+  ],
+  "author": "X. Villamuera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xavsio4/vue-rss-widget/issues"
+  },
+  "homepage": "https://github.com/xavsio4/vue-rss-widget#readme",
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/vue-rss-widget.umd.js",
+  "unpkg": "dist/vue-rss-widget.umd.min.js",
   "name": "vue-rss-widget",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "postpublish": "npm publish --ignore-scripts --@xavsio4:registry='http://registry.npmjs.org'",
+    "build-bundle": "vue-cli-service build --target lib --name vue-rss-widget ./src/components/RssWidget.vue",
+    "build-compo": "vue-cli-service build --target wc --name vue-rss-widget ./src/components/RssWidget.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
