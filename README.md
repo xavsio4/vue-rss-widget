@@ -80,7 +80,8 @@ export default {
 | **feed_body**         | use the vairable you want to retrieve data (ex.slotProps)         | items {title,description,image,author,pubDate,categories[]}              |
 
 
-##see it on the great great Codesandbox
+## see it on the great great Codesandbox
+This example uses bootstrap-vue
 [![Edit vue-rss-widget](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-rss-widget-6x4n2?fontsize=14&hidenavigation=1&theme=dark)
 
 ## Version History

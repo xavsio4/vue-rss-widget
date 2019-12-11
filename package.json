@@ -8,8 +8,8 @@
   },
   "keywords": [
     "vuejs",
-    "quotes",
-    "favqs"
+    "RSS",
+    "widget"
   ],
   "author": "X. Villamuera",
   "license": "MIT",
@@ -23,7 +23,7 @@
   "main": "dist/vue-rss-widget.umd.js",
   "unpkg": "dist/vue-rss-widget.umd.min.js",
   "name": "vue-rss-widget",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
