@@ -1,6 +1,8 @@
 # vue-rss-widget
 
-This unstyled component enables you to display any rssfeed ...anywhere in your app.
+This unstyled component enables you to display any rssfeed ...anywhere in your app. It uses the RSS2JSON (https://rss2json.com/) service to transform the feed into json format. So, never forget to prefix your feed with https://api.rss2json.com/v1/api.json?rss_url= ...your feed.
+
+While there is a free tier for this service, check other plans on RSS2JSON.
 
 For the sake of simplicity, but also to let it be used with any UI framework, you will have to customize it with VUE SLOT api.
 
@@ -8,7 +10,7 @@ Here under you'll find an example of how to do it.
 
 Check examples here under.
 
-![vue-rss-widget Gif](demo/demo.jpg)
+![vue-rss-widget Jpeg](demo/demo.jpg)
 
 in order to install it in your project
 ```
