@@ -23,8 +23,8 @@
   "main": "dist/vue-rss-widget.umd.js",
   "unpkg": "dist/vue-rss-widget.umd.min.js",
   "name": "vue-rss-widget",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
