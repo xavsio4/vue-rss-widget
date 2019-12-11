@@ -36,18 +36,6 @@
 </template>
 
 <script>
-//not being used yet :>
-// nicer, I think, list
-/*let colors = [
-  "indigo",
-  "blue",
-  "cyan",
-  "light-blue",
-  "teal",
-  "light-green",
-  "blue-grey"
-];*/
-
 export default {
   name: "rssfeed",
   props: {
